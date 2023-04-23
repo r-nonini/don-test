@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+
+header {
+    background-image: url(images/mal10.jpg);
+    background-position:bottom;
+    background-size: cover;
+}
+
+.header-main {
+    width: 960px;
+    margin: auto;
+}
+
+.header-content {
+    width: 420px;
+    height: 300px;
+    padding: 50px;
+    background-color: hsl(0,0%,0%,0.6);
+}
+
+.header-content p, .header-content h4 {
+    color: white;
+    margin: 0;
+    text-shadow: black;
+}
+
+.main-title {
+    color: hsla(190,30%,70%,1);
+    text-shadow: 2px 2px black;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;;
+}
+
+#contact {
+    margin-top: 20px;
+}
+
+.sub-title {
+    color: white;
+}
+
+/*NAVIGATION*/
+
+.header-navbar {
+    background-color: hsla(190,0%,10%,1);
+
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    max-width: 960px;
+    margin: auto;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-li {
+    padding: 15px 50px 15px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: hsla(190,30%,70%,1);
+    font-weight: 600;
+  }
+
+.active {
+    color: white;
+}
+
+/*MAIN*/
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+main {
+    background-color: white;
+    margin: 0 auto;
+    height: auto;
+    max-width: 960px;
+    padding: 50px 50px;
+}
+
+.page-header {
+    background-color: hsla(190,30%,70%,1);
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+h4, p {
+    margin-bottom: 10px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: hsla(180,20%,70%,1);
+    height: 120px;
+    padding: 25px;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*CONTENT*/
+
+.don {
+    max-width: 360px;
+    height: auto;
+    float: right;
+    margin-left: 50px;
+}
+
+/*.debug {
+    border: 1px dotted cyan;
+  }*/
