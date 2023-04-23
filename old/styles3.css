@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("images/mal3.png");
+  background-size: cover;
+  background-position: top;
+  margin: 0 auto;
+  height: 240px;
+}
+
+.banner {
+  max-width: 960px;
+  height: 180px;
+  background-color: grey;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  flex: 1;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  max-width: 960px;
+}
+
+li {
+  background-color: black;
+  padding: 10px 0;
+  flex: 1;
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  min-height: 450px;
+  width: 100%;
+  min-width: 320px;
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 1em 4em;
+}
+
+footer {
+  background-color: rgb(180, 180, 200);
+  height: 150px;
+  margin: 0;
+  padding: 40px;
+}
+
+header h1 {
+  margin: 0 0 0 40px;
+  text-align: left;
+  color: orange;
+  text-shadow: black;
+}
+
+.topbar {
+  height: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.title-holder {
+  background-color: rgba(0,0,0,0.7);
+  max-width: 400px;
+}
+
+main h2, main h3 {
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: 800;
+  color:rgb(255, 255, 255)
+}
+
+li:hover {
+  background-color: rgb(100,100,120);
+}
+
+.dummy {
+  background-color: rgb(140,140,200);
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin: 0 0 10px 30px;
+}
+
+.debug {
+  border: 4px dotted blue;
+}

@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+
+header {
+    background-image: url(images/mal9.png);
+    background-position:bottom;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.header-main {
+    width: 960px;
+    margin: auto;
+}
+
+.header-content {
+    width: 360px;
+    padding-left: 25px;
+}
+
+.main-title {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.sub-title {
+    color: rgb(180, 180, 180);
+}
+
+/*NAVIGATION*/
+
+.header-navbar {
+    background-color: rgba(0,40,40,0.7);
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    max-width: 960px;
+    margin: auto;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-li {
+    padding: 15px 25px 15px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+  }
+
+/*MAIN*/
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+main {
+    background-color: white;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.page-header {
+    background-color: black;
+    height: 80px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: rgb(121, 72, 60);
+    height: 200px;
+}
+
+/*.debug {
+    border: 1px dotted cyan;
+  }*/
